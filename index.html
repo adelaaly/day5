@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    
+    <nav>
+    <div id="navebare">
+        <ul>
+            <li><a href="index.html" id="logo"><img src="logo.png" alt="logo"></a></li>
+            <li><a href="index.html" id="link">9ass</a></li>
+            <li><a href="index.html" id="link">hotel</a></li>
+            <li><a href="index.html" id="link">About</a></li>
+            <li><a href="index.html" id="link">Contact us </a></li>
+          </ul>
+    </div>
+    </nav>
+
+   <div id="section1">
+   
+    <div id="left">
+        <img src="trad.png" alt="tradition" id="trad">
+        <div id="icon1">
+            <img src="icon1.png" class="icon_mic"><br>
+            <img src="icon2.png" class="icon_mic"><br>
+            <img src="icon3.png" class="icon_mic"><br>
+        </div>
+    </div>
+    <div id="right">
+       <h2 id="h2_right">Stay with</h2>
+        <h2 id="moroccans"> moroccans</h2>
+        <h2 id="t3ich">T3ich bikhir</h2>
+
+       <p id="p_right"> "I wish Casablanca to be endowed with a large,
+        fine building of witch it can be proud until the
+        end of time." </p>
+        <a href="#" class="learn_more_btn" > learn more </a>
+    </div>
+    <div id="icon2">
+        <img src="twitter.png" class="social_media">
+        <img src="instagram.png" class="social_media">
+        <img src="facebook.png" class="social_media">
+    </div>
+    <div id="red"></div>
+   </div>
+   </div>
+
+<section id="s2">
+   <div id="section2">
+    <div class="elements"> <img src="voyage.png" class="icons_element2" >
+    <p class="p_section2">We will take to the real morocco, and live with them to live the right expireince </p>
+     </div>
+    <div class="elements"> <img src="phone.png" class="icons_element2" >
+    <p class="p_section2"> We are available 24h/7 days, we will provide you with the necessary informations</p></div>
+    <div class="elements"> <img src="people.png" class="icons_element2" > 
+    <p class="p_section2"> Here your can see what peaple says about us</p></div>
+   </div>
+   <a href="#" class="last_button" > get in touch </a>
+</section> 
+
+
+<section id="footer">
+    <div id="footer_blocs">
+        <div class="blocs_logo">
+            <a href="#" class="footer_links"><img src="logo.png" id="logo_footer"></a>
+             <p id="under_logo">visit us to love us</p></div>
+
+        <div class="blocs">
+            <p class="footer_title"><b>9ass </b></p>
+        <a href="#" class="footer_links">Bastila </a><br><br>
+        <a href="#" class="footer_links"> couscous</a><br><br>
+        <a href="#" class="footer_links"> msammen</a><br><br>
+        <a href="#" class="footer_links"> baghrir</a> 
+        </div>
+
+        <div class="blocs">
+            <p class="footer_title"> <b>our hotel </b> </p> 
+            <a href="#" class="footer_links"> casa</a><br><br>
+            <a href="#" class="footer_links"> fes</a><br><br>
+            <a href="#" class="footer_links"> zorora</a>
+        </div>
+        <div class="blocs">
+            <p class="footer_title"><b>contact us</b> </p> 
+            <a href="#" class="footer_links"> +212 660 355 409</a><br><br>
+            <a href="#" class="footer_links"> Jittbat@Contact.com</a>
+        </div>
+
+    </div>
+</section> 
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+</html>
